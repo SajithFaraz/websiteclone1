@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+         
+* {
+   padding:0;
+   margin:0;
+   font-family:'poppins',sans-serif;
+   box-sizing: border-box;
+}
+body{
+   width:100%;
+   height: 100vh;
+   background-color:white;
+   opacity: 100%;
+}
+.logo img {
+   width: 100px; /* Set the width of the logo as needed */
+   height: auto; /* Maintain the aspect ratio */
+}
+header{
+   /* background-color: black; */
+   width: 100%;
+   height:0px;
+   display:flex;
+   justify-content: space-between;
+   color: white;
+   padding: 0px 20px;
+   margin:7px;
+   border: none white 1px ;
+   background-color: #333;
+   color: #fff;
+   /* padding: 10px; */
+   text-align: center;
+   cursor:pointer;
+}
+li{
+   list-style: none;
+   font-size: 1.3em;
+   padding: 25px 13px;
+   
+}
+
+
+.navbar li{
+   float:left;
+   padding:25px 15px;
+   
+}
+.navbar li a{
+   padding:10px;
+   text-decoration: none;
+   align-items: center;
+   transition: all .9s;
+   color:grey;
+}
+.navbar li a:hover{
+color:antiquewhite;
+background-color: grey;
+border-radius: 50px; 
+}
+.navbar li a button{
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+}
+.logo img {
+   width: 180px; /* Set the width of the logo as needed */
+   height: auto; /* Maintain the aspect ratio */
+}
+/* .sign-in-button  {
+   background-color: #f00; /* Set the background color as needed */
+   /* color: #fff; */
+   /* padding: 10px 20px; */
+   /* text-decoration: none;
+   border-radius: 30px;
+   padding:8px 10px;
+   margin:-8px;
+   height:none;
+} */ 
+section{
+  align-items: center;
+  height:100%;
+  width:100%;
+  background-attachment:none;
+  scroll-behavior: smooth;
+  padding:none;
+  display: block;
+  border-radius:none;
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position:100%;
+  transition: all .6s;
+}
+
+#search {
+   padding: 10px;
+   width: 50%;
+   border: 1px solid black;
+   border-radius: 15px;
+   margin-right: 10px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%, -50%);
+   height:43px;
+}
+
+#search-button {
+   background-color:grey;
+   color:black;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;
+   position:absolute;
+   top:50%;
+   left:80%;
+   height:43px;
+   font-size: large;
+  
+   transform:translate(-50%, -50%);
+}
+.box {
+   
+   padding: 10px;
+   text-align: center;
+}
+.box p {
+   margin: 10px 0;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #333;
+   font-size: x-large;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.box img {
+   max-width: 100%;
+   width:250px;
+   height: auto;
+   border-radius: 25px;
+   /* border: 1rem solid #fff; */
+   justify-content: left;
+   left:45%;
+   box-shadow:10px grey;
+}
+
+.content-box {
+   background-color:whitesmoke;
+   padding: 20px;
+   margin: 20px;
+   border: none;
+   display:flex;
+   width:90%;
+   border-radius: 15px;
+   height:80vh;
+   justify-content: center;
+   left:50%;
+   transform: translate(50px, 50px);
+   box-shadow:0px 10px 10px grey ;
+
+}
+button{
+  position: relative;
+  border:none;
+  transition: .4s ease-in;
+  z-index: 1;
+  cursor: pointer;
+  width:160px;
+  height:55px;
+  transform: translate(50% 50%);
+  left:none;
+  align-items: center;
+}
+.button{
+   color:white;
+   background-color:grey;
+   font-size:25px;
+   border-radius:15px;
+}
+.button:hover{
+   box-shadow: 10px 10px 0px palegoldenrod;
+   
+   top: -5px;
+   left:-5px;
+}
+
+input::placeholder{
+   font-size:20px
+}
+input.type{
+   font-size: 25px;
+
+}
+      </style>
+   </head>
+    <title> Hello</title>
+    <body>
+        <header>
+         <div class="logo">
+            <img src="Saphire-Logo-For-Web.png" alt="Your Logo">
+        </div>
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Contact</a></li>
+                <li> <a href="#">Blog</a></li>
+                <li> <a href="#">Career</a></li>
+                <li> <a href="#">SignIn</a></li>
+          
+         </ul>
+        </header>
+<br>
+<br>
+<br>
+<br>
+
+  <section style="background-image:url(pexels-maahid-photos-4366440.jpg);">
+
+   <input type="text" id="search" placeholder="Search...">
+   <button type="button" id="search-button" target="-blank">Search</button>
+
+</section> 
+  <section style="background-color:white;">
+   <div class="content-box">
+   <div class="box">
+      
+      <img src="office 1.jpg" alt="Sample Image">
+      <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. In aliquam, consequuntur nobis totam voluptatum temporibus eaque! Repudiandae, pariatur debitis repellendus quibusdam similique placeat-"</p>
+      <br>
+      <br>
+      <button class="button">Get an demo </button>  
+   </div>
+ 
+
+</div> 
+</section> 
+  <section style="background-color:yellow;">
+
+
+
+</section> 
+
+     </body>
+    </html> 
