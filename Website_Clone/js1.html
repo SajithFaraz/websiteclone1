@@ -147,7 +147,10 @@ section{
    justify-content: left;
    left:45%;
    box-shadow:10px 0px 10px grey;
+   margin:auto;
+   padding: auto;
 }
+
 
 .content-box {
    background-color:whitesmoke;
@@ -204,7 +207,7 @@ input.type{
 .card {
             background-color:white;
             border-radius: 18px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px grey;
             overflow: hidden;
             width: 60%;
             text-align: center;
@@ -218,13 +221,14 @@ input.type{
             margin-top: 25px;
             margin-left: 20%;
             cursor:pointer;
-           
-
-        }
+            /* transition: .4s ease-in;
+            z-index: 1; */
+             }
+       
         .card1 {
             background-color:white;
             border-radius: 18px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px grey;
             overflow: hidden;
             width: 60%;
             text-align: center;
@@ -244,25 +248,28 @@ input.type{
         .card img {
             width: 50%;
             height: auto;
-            border-radius: 25px;
+            border-radius: 50%;
+            border:1rem solid #fff;
         }
         .card1 img {
             width: 50%;
             height: auto;
-            border-radius:25px;
+            border-radius:50%;
+            border: 1rem solid #fff;
         }
 
         .card-content {
             padding: 20px;
         }
         .profile-name {
-            font-size: 1.5rem;
+            font-size: 2rem;
             font-weight: bold;
             margin-bottom: 10px;
+            color: #555;
         }
 
         .profile-description {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: #555;
         }
         p{
