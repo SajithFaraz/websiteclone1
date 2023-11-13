@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <title>SapphireIMS</title>
       <style>
+         
          
 * {
    padding:0;
@@ -57,7 +59,7 @@ li{
 }
 .navbar li a:hover{
 color:antiquewhite;
-background-color: grey;
+background-color:#718096;
 border-radius: 50px; 
 }
 .navbar li a button{
@@ -198,6 +200,76 @@ input.type{
    
 
 }
+
+.card {
+            background-color:white;
+            border-radius: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 60%;
+            text-align: center;
+            transform: translate(50% -50%);
+            left:-70%;
+            right:70%;
+            height:50%;
+            display:flex;
+            place-items:center;
+            flex-direction:row;
+            margin-top: 25px;
+            margin-left: 20%;
+            cursor:pointer;
+           
+
+        }
+        .card1 {
+            background-color:white;
+            border-radius: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 60%;
+            text-align: center;
+            transform: translate(50% -50%);
+            left:-70%;
+            right:70%;
+            height:50%;
+            display:flex;
+            place-items:center;
+            flex-direction:row;
+            margin-top: 25px;
+            margin-left: 20%;
+            cursor:pointer;
+            
+
+        }
+        .card img {
+            width: 50%;
+            height: auto;
+            border-radius: 25px;
+        }
+        .card1 img {
+            width: 50%;
+            height: auto;
+            border-radius:25px;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+        .profile-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .profile-description {
+            font-size: 2rem;
+            color: #555;
+        }
+        p{
+         margin:25px;
+         font-size: 1rem;
+         color: #555;
+        }
       </style>
    </head>
     <title> Hello</title>
@@ -222,7 +294,7 @@ input.type{
 
   <section style="background-image:url(pexels-maahid-photos-4366440.jpg);">
 
-   <input type="text" id="search" placeholder="Search...">
+   <input type="text" id="search" placeholder="Search..."><br>
    <button type="button" id="search-button" target="-blank">Search</button>
 
 </section> 
@@ -240,11 +312,31 @@ input.type{
 
 </div> 
 </section> 
-  <section style="background-color:whitesmoke;">
-
+  <section style="background-color:white;">
+   <div class="card">
+      <img src="office 1.jpg" alt="Profile Image">
+      <div class="card-content">
+          <div class="profile-name">John Doe</div>
+          <div class="profile-description">Web Developer(Founder)</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur recusandae odit cumque repudiandae saepe placeat.</p>
+      </div>
+      </div>
+     
+      <div class="card1">
+      <img src="office 2.jpg" alt="Profile Image">
+      <div class="card-content">
+          <div class="profile-name">Micheal Davis</div>
+          <div class="profile-description">App Developer(Co-Founder)</div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti et eligendi itaque obcaecati amet quos.</p>
+      </div>
+  </div>
 
 
 </section> 
+<section>
+   <footer>
+   </footer>
+</section>
 
      </body>
     </html> 
